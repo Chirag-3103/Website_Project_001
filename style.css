@@ -73,4 +73,17 @@ a{
 
 .td-img{
     padding: 0px;
+    margin: 0px;
 }
+
+.about-website{
+    height: 300px;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+
+    background-color: pink;
+    border: 2px solid black;
+}
+
