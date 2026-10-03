@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Own Clone</title>
+    <title>Scamazon</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,6 +22,9 @@
                 <option class="search-opt1" >Electronics</option>
                 <option class="search-opt1" >Clothing</option>
                 <option class="search-opt1" >Gaming</option>
+                <option class="search-opt1" >Kitchen Items</option>
+                <option class="search-opt1" >Hiking Items/Camping items</option>
+                <option class="search-opt1" >New Arrivals</option>
             </select>
             <input class="search-input" type="search" placeholder="Type Something">
             <button class="search-button" >Search</button>
@@ -34,15 +37,22 @@
             <a class="nav2-a-tag" href="#">Electronics</a>
             <a class="nav2-a-tag" href="#">Clothing</a>
             <a class="nav2-a-tag" href="#">Gaming</a>
+            <a class="nav2-a-tag" href="#">Kitchen Items</a>
+            <a class="nav2-a-tag" href="#">Hiking Items/Camping items</a>
+            <a class="nav2-a-tag" href="#">New Arrivals</a>
         </div>
         <center>
             <div class="hero">
-                <h1>Welcome!!</h1>
-                <p>This is a website made to showcase the coding capabilities of me(Chirag)
-                <br>Hope this website is as good as I imagined.</p>
+                <h1 style="color:#030164">Welcome!!</h1><br>
+                <p style="color:#030164; font-size: 20px;">This is a website made to showcase the coding capabilities of me(Chirag)
+                <br>Hope this website is as good as I imagined.</p><br>
             </div>
-            <div class="pic-slots">
+            <!--Just copy this and change the number incase of adding new row of images-->
+            <div class="pic-slots_1">
                 <table>
+                    <tr>
+                        <td colspan="5" style="color: white; background-color:#3B82F6"><center><h2 style="color: white;">What We Offer!!</h2></center></td>
+                    </tr>
                     <tr class="tr-img" >
                         <td class="td-img" >
                             <img src="clothing2.jpg" height="450px" width="295px">
@@ -62,16 +72,47 @@
                     </tr>
                 </table>
             </div>
+            <div class="pic-slots_2">
+                <table>
+                    <tr class="tr-img" >
+                        <td class="td-img" >
+                            <img src="kitchen_items.jpg" height="450px" width="295px">
+                                <div class="img-text">
+                                    <h3><u>Click For More Info</u></h3>
+                                </div>
+                        </td>
+                        <td class="td-img" >
+                            <img src="camping_stuff.jpg" height="450px" width="295px">
+                        </td>
+                        <td class="td-img" >
+                            <img src="hiking_stuff.jpg" height="450px" width="295px">
+                        </td>
+                        <td class="td-img" >
+                            <img src="utensils.jpg" height="450px" width="295px">
+                        </td>
+                        <td class="td-img" >
+                            <img src="new_arrival.jpg" height="450px" width="295px">
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </center>
-            <div class="about-website">
-                <h2>About This Website!!</h2>
-                <br><br>
-                <p>
-                    This is a website where I'm trying to showcase my talents in making a shopping website<br>
-                    But now that I'm actually making this website.<br><br>I am getting to know the difficulties in coding a website from scratch<br>
-                    Also without the help of any AI<br> (I did use AI just to know the structure and not to get any code so I'm safe ig)<br>
-                    <br><h4>Thank You and Look at my website inform me any issues found in this</h4><br>
-                </p>
+            <div class="main-about-website">
+                <div class="about-website">
+                    <u style="color:#030164"><h2 style="color:#030164">About This Website!!</h2></u>
+                    <br><br>
+                    <p style="color:#030164">
+                        This is a website where I'm trying to showcase my talents in making a shopping website<br>
+                        But now that I'm actually making this website.<br><br>I am getting to know the difficulties in coding a website from scratch<br>
+                        Also without the help of any AI<br> (I did use AI just to know the structure and not to get any code so I'm safe ig)<br>
+                        <br><h4 style="color:#030164">Thank You and Look at my website inform me any issues found in this</h4><br>
+                    </p>
+                </div>
+                <div class="git-logo-aboutme">
+                    <a class="a-tag-git-img" href="https://github.com/Chirag-3103" target="_blank">
+                        <img src="github-logo.png" height="150px">
+                    </a>
+                </div>
             </div>
     </main>
 </body>
