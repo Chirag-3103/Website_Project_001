@@ -97,7 +97,6 @@ a{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    position: relative;
 }
 
 .td-img img{
@@ -110,19 +109,7 @@ a{
     filter: grayscale(90%);
 }
 
-.img-text{
-    position: absolute;
-    top: 10px; left: 5px;
-    color: white;
-    transition: 0.3s ease;
-    opacity: 0;
-}
-
-.td-img:hover .img-text{
-    opacity: 1;
-}
-
-.main-about-website{
+.main-about-website_1{
     display: flex;
     background-color: #F5F7FA;
 }
@@ -144,4 +131,50 @@ a{
     align-items: center;
     justify-content: center;
 
+}
+
+.foot-main{
+    height: 60px;
+
+
+    background-color: #9CA3AF;
+    border: 1px solid black;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-a-tag{
+    color: #030164;
+    border: 1px solid #9CA3AF;
+    border-bottom: 2px solid black;
+    padding: 0px 5.49% 0px 5.49%;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-a-tag{
+    color: #030164;
+    border: 1px solid #9CA3AF;
+    border-bottom: 2px solid black;
+    padding: 0px 23.474% 0px 23.474%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy-a-tag{
+    text-decoration: underline;
+    color: #030164;
+}
+
+.right-p{
+    color: #030164;
 }
