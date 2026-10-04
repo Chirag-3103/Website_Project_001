@@ -30,7 +30,7 @@ a{
 
 .search{
     display: flex;
-    height: 30px;
+    height: 100%;
 }
 
 .search-input{
@@ -173,7 +173,7 @@ a{
 
 .copyright{
     display: flex;
-    padding-top: 8px;
+    padding-top: 5px;
     background-color: #15181E;
 }
 
