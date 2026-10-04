@@ -82,15 +82,15 @@ a{
 .hero{
     padding-top: 10px;
     height: 110px;
-    background-color: #F5F7FA;
+    background-color: #F8FAFC;
 }
 
 .pic-slots_1{
-    background-color: #F5F7FA;
+    background-color: #F8FAFC;
 }
 
 .pic-slots_2{
-    background-color: #F5F7FA;
+    background-color: #F8FAFC;
 }
 
 .td-img{
@@ -111,7 +111,7 @@ a{
 
 .main-about-website_1{
     display: flex;
-    background-color: #F5F7FA;
+    background-color: #F8FAFC;
 }
 
 .about-website{
@@ -120,7 +120,7 @@ a{
     font-size: 20px;
     text-align: center;
     margin-top: 0px;
-    background-color: #F5F7FA;
+    background-color: #F8FAFC;
 
 }
 
@@ -134,10 +134,9 @@ a{
 }
 
 .foot-main{
-    height: 60px;
+    height: 170px;
 
-
-    background-color: #9CA3AF;
+    background-color: #15181E;
     border: 1px solid black;
 }
 
@@ -147,34 +146,43 @@ a{
 }
 
 .footer-a-tag{
-    color: #030164;
-    border: 1px solid #9CA3AF;
-    border-bottom: 2px solid black;
+    color: rgb(108, 216, 0);
     padding: 0px 5.49% 0px 5.49%;
 }
 
 .social-links{
     display: flex;
-    justify-content: space-around;
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .social-a-tag{
-    color: #030164;
-    border: 1px solid #9CA3AF;
-    border-bottom: 2px solid black;
-    padding: 0px 23.474% 0px 23.474%;
+    color: rgb(108, 216, 0);
+    overflow: hidden;
+}
+
+.social-a-tag img{
+    transition: 0.3s ease;
+}
+
+.social-a-tag img:hover{
+    transform: scale(0.9);
+    filter: grayscale(50%)
 }
 
 .copyright{
     display: flex;
-    justify-content: space-around;
+    padding-top: 8px;
+    background-color: #15181E;
 }
 
 .copy-a-tag{
     text-decoration: underline;
-    color: #030164;
+    color: rgb(108, 216, 0);
 }
 
 .right-p{
-    color: #030164;
+    color: rgb(108, 216, 0);
+    margin-left: 550px;
 }
