@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 100%;
+    width: 8%;
+}
+
