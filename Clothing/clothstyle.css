@@ -44,10 +44,15 @@ header nav a{
     
 }
 
-.main-seller{
-    height: 600px;
-    width: 100%;
+main{
+    height: 2000px;
+
     background-color: white;
+}
+
+.main-seller{
+    height: 30%;
+    width: 100%;
 
     position:relative;
 }
@@ -79,6 +84,62 @@ header nav a{
     opacity: 1;
 }
 
-.overlay-eff h1, u, p{
+.overlay-eff h1,
+.overlay-eff u,
+.overlay-eff p{
     padding-bottom: 10px;
+}
+
+.two-images{
+    height: 40%;
+
+    display: flex;
+
+    border-bottom: 3px solid red;
+}
+
+.two-images .container1,
+.two-images .container2{
+    height: 100%;
+    width: 50%;
+
+    position: relative;
+}
+
+.two-images .container1 img,
+.two-images .container2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.two-images .container1 img{
+    padding: 0 0 0 25%;
+}
+
+.two-images .container2 img{
+    padding: 0 25% 0 0;
+}
+
+.container1 .men-casual-text{
+    position: absolute;
+    bottom:0;
+    left:25%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.container2 .men-royal-text{
+    position: absolute;
+    bottom:0;
+    left:0;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.container1:hover .men-casual-text{
+    opacity: 1;
+}
+
+.container2:hover .men-royal-text{
+    opacity: 1;
 }
