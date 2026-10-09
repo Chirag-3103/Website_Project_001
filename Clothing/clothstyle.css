@@ -122,16 +122,16 @@ main{
 
 .container1 .men-casual-text{
     position: absolute;
-    bottom:0;
-    left:25%;
+    bottom:2%;
+    left:27%; /*Here left is 25% + 2% to look good */
     opacity: 0;
     transition: .3s ease;
 }
 
 .container2 .men-royal-text{
     position: absolute;
-    bottom:0;
-    left:0;
+    bottom:2%;
+    left:2%;
     opacity: 0;
     transition: .3s ease;
 }
@@ -142,4 +142,27 @@ main{
 
 .container2:hover .men-royal-text{
     opacity: 1;
+}
+
+.accessories{
+    height: 30%;
+
+    border: 3px solid cyan;
+}
+
+/*This is for first column*/
+.accessories .div-flex1{
+    height: 50%;
+
+}
+
+
+
+
+
+/*This is for second column*/
+.accessories .div-flex2{
+    height: 50%;
+
+    border: 3px solid blue;
 }
