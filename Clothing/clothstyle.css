@@ -251,17 +251,17 @@ main{
 /*Footer ka edits starts*/
 
 footer{
+    background-color: transparent;
     height: 800px;
     width: 100%;
 
-    background-color: lightgreen;
 }
 
 footer h1,
 footer h2,
 footer h3,
 footer p{
-    color: #2F39A9;
+    color: white;
 }
 
 .text-summary{
@@ -307,7 +307,7 @@ footer p{
 .list-main .help .help-li,
 .list-main .member .member-li,
 .list-main .member .member-li a{
-    color: #2F39A9;
+    color: white;
     padding-bottom: 15%;
     font-size: large;
 }
@@ -335,10 +335,97 @@ footer p{
 /*Height already given */
 .social-payment{
     height: 25%;
-
-    background-color: pink;
 }
 
-.social-payment .social-text p{
-    border: 2px solid red;
+.social-text{
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    font-size: medium;
+
+    height: 100%;
+    width: 75%;
+}
+
+.social-flex .social-links{
+    height: 100%;
+    width: 25%;
+    font-size: 170%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.social-links .social-ia-tag i{
+    color: white;
+}
+
+.social-ia-tag:hover i{
+    transition: .3s ease;
+    color: red;
+}
+
+.social-links a{
+    padding: 0 2%;
+}
+
+.social-flex{
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.payment{
+    height: 70%;
+
+}
+
+.ptext{
+    height: 50%;
+    padding: 0.5% 0;
+}
+
+.pay-pics{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.pay-pics .a-pay-img{
+    height: 50%;
+    width: 6%;
+    position: relative;
+    overflow: hidden;
+}
+
+.a-pay-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.a-pay-img img:hover{
+    transform: scale(1.05);
+    filter: grayscale(70%);
+}
+
+.ref-link{
+    height:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+
+.ref-link a{
+    color: white;
+    text-decoration-color: red;
+}
+
+.ref-link a h3{
+    transition: .3s ease;
+}
+
+.ref-link h3:hover{
+    color: grey;
 }
